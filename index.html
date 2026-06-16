@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nirmal Nadh Portfolio</title>
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+overflow-x:hidden;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+padding:20px 8%;
+background:rgba(0,0,0,.85);
+backdrop-filter:blur(10px);
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:999;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+nav a:hover{
+color:#d4af37;
+}
+
+.gold{
+color:#d4af37;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:120px 8%;
+gap:60px;
+}
+
+.hero-content{
+flex:1;
+}
+
+.hero-tag{
+color:#d4af37;
+letter-spacing:3px;
+margin-bottom:15px;
+}
+
+.hero h1{
+font-size:5rem;
+line-height:1;
+}
+
+.hero h1 span{
+color:#d4af37;
+}
+
+.hero-description{
+margin-top:20px;
+max-width:650px;
+line-height:1.8;
+color:#bfbfbf;
+}
+
+.hero-image{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.hero-image img{
+width:100%;
+max-width:520px;
+border-radius:25px;
+box-shadow:0 0 50px rgba(212,175,55,.15);
+}
+
+.hero-buttons{
+margin-top:35px;
+}
+
+.btn-primary{
+background:#d4af37;
+color:black;
+padding:14px 28px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+margin-right:15px;
+}
+
+.btn-secondary{
+border:1px solid #d4af37;
+color:#d4af37;
+padding:14px 28px;
+border-radius:50px;
+text-decoration:none;
+}
+
+section{
+padding:80px 8%;
+}
+
+.section-title{
+font-size:2.7rem;
+color:#d4af37;
+margin-bottom:30px;
+text-shadow:0 0 20px rgba(212,175,55,.25);
+}
+.portfolio-category{
+font-size:2rem;
+color:#d4af37;
+margin-top:60px;
+margin-bottom:25px;
+border-left:4px solid #d4af37;
+padding-left:15px;
+}
+.reel-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.reel-card{
+width:320px;
+}
+
+.reel-card iframe{
+width:100%;
+height:570px;
+border:none;
+border-radius:20px;
+}
+
+.reel-card h3{
+margin-top:15px;
+color:#d4af37;
+}
+
+.reel-card p{
+color:#bfbfbf;
+line-height:1.6;
+margin-top:10px;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.card{
+background:#151515;
+padding:20px;
+border-radius:15px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 30px rgba(212,175,55,.12);
+}
+
+iframe{
+width:100%;
+height:220px;
+border:none;
+border-radius:12px;
+}
+
+.card img{
+width:100%;
+border-radius:12px;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+}
+
+</style>
+</style>
+</head>
+<body>
+<nav><a href='#about'>About</a><a href='#portfolio'>Portfolio</a><a href='#skills'>Skills</a><a href='#contact'>Contact</a></nav>
+<section class="hero">
+
+<div class="hero-content">
+
+<p class="hero-tag">
+VIDEO EDITOR • FILMMAKER • STORYTELLER
+</p>
+
+<h1>
+NIRMAL <span>NADH</span>
+</h1>
+
+<p class="hero-description">
+Transforming raw footage into cinematic experiences through storytelling,
+visual effects, sound design and creative editing.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#portfolio" class="btn-primary">
+View Portfolio
+</a>
+
+<a href="#contact" class="btn-secondary">
+Contact Me
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="hero-image.png" alt="Creative Workspace">
+
+</div>
+
+</section>
+<section id='about'>
+    
+<h2 class='gold'>About Me</h2>
+<p style="max-width:900px;line-height:1.8;color:#bfbfbf;">
+
+I am a video editor and filmmaker passionate about
+transforming ideas into compelling visual stories.
+
+My work spans narrative films, social media content,
+promotional campaigns, event productions and visual
+effects.
+
+Every project is approached with the goal of creating
+an experience that captures attention, builds emotion,
+and leaves a lasting impression.
+
+
+</section>
+<section>
+
+<h2 class="section-title">
+Highlights
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h2>6+</h2>
+<p>Creative Projects</p>
+</div>
+
+<div class="card">
+<h2>2</h2>
+<p>Narrative Film Edits</p>
+</div>
+
+<div class="card">
+<h2>3+</h2>
+<p>Visual Effects Projects</p>
+</div>
+
+<div class="card">
+<h2>4</h2>
+<p>Content Categories</p>
+</div>
+
+</section>
+<section id="portfolio">
+
+<h2 class="section-title">
+Selected Work
+</h2>
+
+<p style="
+color:#bfbfbf;
+max-width:700px;
+margin-bottom:50px;
+line-height:1.8;">
+
+A collection of cinematic edits, promotional content,
+event coverage and visual effects projects.
+
+</p>
+
+
+
+
+</div>
+
+
+<!-- Social -->
+
+<h3 class="portfolio-category">
+Social Media & Promotional
+</h3>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>LEAFIFY INTRO EDIT | Influencer reel</h3>
+
+<a href="https://youtu.be/XhB1OMh3mbY" target="_blank">
+
+<img
+src="https://img.youtube.com/vi/XhB1OMh3mbY/maxresdefault.jpg"
+style="width:100%;border-radius:12px;">
+
+</a>
+
+</div>
+
+<div class="card">
+<h3>Riviera | Expo 2 | showreel</h3>
+
+<a href="https://youtu.be/Wk1OctSeq_0" target="_blank">
+
+<img
+src="https://img.youtube.com/vi/Wk1OctSeq_0/maxresdefault.jpg"
+style="width:100%;border-radius:12px;">
+
+</a>
+
+</div>
+
+</div>
+
+
+<!-- Event Films -->
+
+<h3 class="portfolio-category">
+Event Films
+</h3>
+
+<div class="grid">
+
+<div class="card">
+
+<iframe src="https://www.youtube.com/embed/nc6PA5B8LWY"></iframe>
+</div>
+
+<div class="card">
+
+<iframe src="https://www.youtube.com/embed/QC1TxWExYDU"></iframe>
+</div>
+
+</div>
+
+
+<!-- VFX -->
+
+<h3 class="portfolio-category">
+Visual Effects
+</h3>
+
+<div class="reel-grid">
+
+<div class="reel-card">
+
+<iframe
+src="https://www.youtube.com/embed/a_rx4ojgVsE">
+</iframe>
+
+<h3>Infinity Door Effect</h3>
+
+<p>
+A creative visual effects project focused on
+illusion, compositing and seamless transitions.
+</p>
+
+</div>
+
+</div>
+<!-- Narrative -->
+
+<h3 class="portfolio-category">
+Narrative Films
+</h3>
+
+<div class="reel-grid">
+
+<div class="reel-card">
+
+<iframe
+src="https://www.youtube.com/embed/LDFdTSlfilM">
+</iframe>
+
+<h3>Smoke</h3>
+
+<p>
+A cinematic narrative short exploring atmosphere,
+emotion and visual storytelling.
+</p>
+
+</div>
+
+</div>
+
+</section>
+<section id='skills'>
+
+<h2 class="section-title">
+Skills & Expertise
+</h2>
+<div class="grid">
+
+<div class="card">
+<h3>Adobe Premiere Pro</h3>
+<p>
+Video editing, storytelling, pacing and
+social media content creation.
+</p>
+</div>
+
+<div class="card">
+<h3>DaVinci Resolve</h3>
+<p>
+Editing workflows, color correction and
+post-production fundamentals.
+</p>
+</div>
+
+<div class="card">
+<h3>Poster & Graphic Design</h3>
+<p>
+Designed promotional posters and event
+branding materials for college events.
+</p>
+</div>
+
+<div class="card">
+<h3>After Effects</h3>
+<p>
+Currently learning motion graphics and
+visual effects.
+</p>
+</div>
+
+<div class="card">
+<h3>Creative Storytelling</h3>
+<p>
+Transforming ideas into engaging visual
+experiences through editing.
+</p>
+</div>
+
+</div>
+</section>
+
+</section>
+<section id="contact">
+
+<h2 class="section-title">
+Let's Create Something Worth Watching
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Email</h3>
+<p>nirmalnadh3009@gmail.com</p>
+</div>
+
+<div class="card">
+<h3>Instagram</h3>
+
+<a href="https://instagram.com/nirmalnadh"
+target="_blank"
+style="color:white;text-decoration:none;">
+
+@nirmalnadh
+
+</a>
+
+</div>
+<div class="card">
+<h3>Phone</h3>
+
+<a href="tel:+919949790005"
+style="color:white;text-decoration:none;">
+
++91 9949790005
+
+</a>
+
+</div>
+
+<div class="card">
+<h3>Available For</h3>
+<p>Freelance • Collaborations • Creative Projects</p>
+</div>
+
+</div>
+
+</section>
+</body></html>
+<footer style="
+text-align:center;
+padding:30px;
+color:#777;">
+
+© 2025 Nirmal Nadh • Video Editor & Filmmaker
+
+</footer>
