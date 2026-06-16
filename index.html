@@ -198,13 +198,64 @@ border-radius:12px;
 
 @media(max-width:900px){
 
+nav{
+padding:15px 5%;
+}
+
+nav a{
+margin-left:10px;
+font-size:0.9rem;
+}
+
 .hero{
-flex-direction:column-reverse;
+flex-direction:column;
 text-align:center;
+padding-top:120px;
+gap:30px;
 }
 
 .hero h1{
 font-size:3rem;
+}
+
+.hero-image{
+order:-1;
+}
+
+.hero-image img{
+max-width:320px;
+width:100%;
+}
+
+.hero-buttons{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:15px;
+}
+
+.btn-primary,
+.btn-secondary{
+width:220px;
+margin:0;
+text-align:center;
+}
+
+.section-title{
+font-size:2rem;
+}
+
+.portfolio-category{
+font-size:1.6rem;
+}
+
+.reel-card{
+width:100%;
+max-width:320px;
+}
+
+.reel-card iframe{
+height:500px;
 }
 
 }
